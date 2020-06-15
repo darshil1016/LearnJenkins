@@ -1,2 +1,2 @@
-#This is Jenkinsfile
+//This is Jenkinsfile
 echo "From Jenkinsfile"
