@@ -1,6 +1,7 @@
 //This is Jenkinsfile
 echo "From Jenkinsfile"
 pipeline {
+    agent any
     stages {
         stage('build') {
             steps {
