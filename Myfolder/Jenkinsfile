@@ -6,6 +6,7 @@ pipeline {
         stage('build') {
             steps {
                 echo "In build"
+                sh 'mvn -v'
             }
         }
     }
