@@ -1,12 +1,11 @@
 //This is Jenkinsfile
 echo "From Jenkinsfile"
 pipeline {
-    agent any
+    agent { docker { image 'maven:3.3.3' } }
     stages {
         stage('build') {
             steps {
-                echo "In build"
-                sh 'mvn -v'
+                sh 'mvn --version'
             }
         }
     }
