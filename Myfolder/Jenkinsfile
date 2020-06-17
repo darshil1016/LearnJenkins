@@ -6,9 +6,7 @@ pipeline {
         stage('build') {	        
             steps {	            
                 echo "In build"
-                sh "ls -l > commandResult"
-                result = readFile('commandResult').trim()
-                echo ${result}
+                sh "ls -l "
             }
             }	            
         }	        
