@@ -1,5 +1,5 @@
-//This is Jenkinsfile	//This is Jenkinsfile
-echo "From Jenkinsfile"	echo "From Jenkinsfile"
+//This is Jenkinsfile	
+echo "From Jenkinsfile"	
 pipeline {	
     agent any	    
     stages {	    
